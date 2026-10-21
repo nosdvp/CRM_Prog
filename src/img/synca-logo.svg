@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" width="260" height="80">
+  <!-- Icon -->
+  <g transform="translate(6, 8) scale(0.8)" fill="#F97316">
+    <path d="M62 16
+             C48 12 32 18 26 32
+             C22 42 24 54 32 62
+             L42 53
+             C37 48 35 40 38 34
+             C41 26 50 23 58 26
+             L62 16Z"/>
+    <path d="M38 84
+             C52 88 68 82 74 68
+             C78 58 76 46 68 38
+             L58 47
+             C63 52 65 60 62 66
+             C59 74 50 77 42 74
+             L38 84Z"/>
+    <circle cx="50" cy="50" r="8"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <text x="90" y="52" 
+        font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="34" 
+        font-weight="700" 
+        fill="#F97316" 
+        letter-spacing="-0.8">Synca</text>
+</svg>

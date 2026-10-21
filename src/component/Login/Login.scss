@@ -1,0 +1,70 @@
+.authPage{
+  width: 500px;
+  height: 550px;
+  background-color: #161d27;
+  border: 1px solid #434750;
+  border-radius: 30px;
+  padding: 30px;
+  &__login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    &_enter{
+      width: 100%;
+      height: 50px;
+      background-color: #f36616;
+      cursor: pointer;
+      transition: all 0.1s;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: inset 0px 2px 5px white,
+                        0px 5px 10px rgba(0, 0, 0, 0.397);
+      &:hover{
+        background-color: #f36616;
+        transform: scale(1.01);
+        transition: all 0.1s;
+      }
+      &:active{
+        background-color: #f36616;
+        transform: scale(0.99);
+        transition: all 0.1s;
+      }
+    }
+    &_line{
+      margin-top: 20px;
+      width: 100%;
+      height: 2px;
+      background-color: rgba(192, 192, 192, 0.158);
+    }
+    &_reg{
+      color: #acafb6;
+      button{
+        background-color: transparent;
+        color: #50d3e7;
+        border: none;
+        outline: none;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+          color: #f36616;
+        }
+        &:active{
+          transform: scale(0.95);
+          transition: all 0.1sg;
+        }
+      }
+    }
+  }
+  &__registration{
+    
+  }
+}
