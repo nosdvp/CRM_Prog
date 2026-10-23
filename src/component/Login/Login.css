@@ -1,5 +1,5 @@
 .authPage {
-  width: 500px;
+  width: 450px;
   height: 550px;
   background-color: #161d27;
   border: 1px solid #434750;
@@ -13,6 +13,74 @@
   justify-content: space-between;
   width: 100%;
   height: 100%;
+}
+.authPage__login_title {
+  color: #acafb6;
+  font-size: 18px;
+}
+.authPage__login_emailInputBlock, .authPage__login_passInputBlock {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.authPage__login_emailInputBlock_emailDefault, .authPage__login_emailInputBlock_passDefault, .authPage__login_passInputBlock_emailDefault, .authPage__login_passInputBlock_passDefault {
+  color: white;
+  font-size: 18px;
+}
+.authPage__login_emailInputBlock_emailError, .authPage__login_emailInputBlock_passError, .authPage__login_passInputBlock_emailError, .authPage__login_passInputBlock_passError {
+  color: rgba(255, 47, 47, 0.808);
+  font-size: 18px;
+}
+.authPage__login_emailInputBlock_inputDefault, .authPage__login_emailInputBlock_inputError, .authPage__login_passInputBlock_inputDefault, .authPage__login_passInputBlock_inputError {
+  border: 2px solid #424b54;
+  outline: none;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #10171f;
+}
+.authPage__login_emailInputBlock_inputDefault_emailImg, .authPage__login_emailInputBlock_inputError_emailImg, .authPage__login_passInputBlock_inputDefault_emailImg, .authPage__login_passInputBlock_inputError_emailImg {
+  width: 25px;
+  height: 25px;
+  background-image: url(../../img/empty-email.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.authPage__login_emailInputBlock_inputDefault input, .authPage__login_emailInputBlock_inputError input, .authPage__login_passInputBlock_inputDefault input, .authPage__login_passInputBlock_inputError input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+.authPage__login_emailInputBlock_inputError, .authPage__login_passInputBlock_inputError {
+  border: 2px solid rgba(255, 0, 0, 0.418);
+  background-color: rgba(255, 47, 47, 0.24);
+}
+.authPage__login_emailInputBlock_inputError input::-moz-placeholder, .authPage__login_passInputBlock_inputError input::-moz-placeholder {
+  color: rgba(255, 154, 154, 0.815);
+}
+.authPage__login_emailInputBlock_inputError input::placeholder, .authPage__login_passInputBlock_inputError input::placeholder {
+  color: rgba(255, 154, 154, 0.815);
+}
+.authPage__login_passInputBlock {
+  margin-bottom: 40px;
+}
+.authPage__login_passInputBlock_inputDefault_passImg {
+  width: 25px;
+  height: 25px;
+  background-image: url(../../img/lock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .authPage__login_enter {
   width: 100%;
